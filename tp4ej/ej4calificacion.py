@@ -8,7 +8,7 @@ El programa principal debe mostrar un mensaje donde se indique el Nombre del alu
 “Alumno Jorge, su nota de Matemáticas es Sobresaliente”"""
 
 
-def calificacion(nota):
+def pasa_a_calificacion(nota):
     if nota == 10:
         return "Excelente"
     elif nota == 9 or nota == 8:
@@ -21,7 +21,7 @@ def calificacion(nota):
         return "Desaprobado"
 
 def mostrar_calificacion(nombre, materia, nota):
-    calif = calificacion(nota)
+    calif = pasa_a_calificacion(nota)
     print(f"Alumno {nombre}, su nota de {materia} es {calif}")
 
 nombre = input("Ingrese el nombre del alumno: ")
