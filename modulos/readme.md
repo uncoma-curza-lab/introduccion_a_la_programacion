@@ -193,5 +193,5 @@ with socketserver.TCPServer(("", PORT), Handler) as httpd:
 ```
 
 ## Para más detalles:
-- [Tutorial en catellano la página de Python](https://docs.python.org/es/3/tutorial/modules.html)
+- [Tutorial en castellano la página de Python](https://docs.python.org/es/3/tutorial/modules.html)
 - [Tutorial en inglés en la página de w3Schools](https://www.w3schools.com/python/python_modules.asp)
